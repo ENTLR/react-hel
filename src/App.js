@@ -4,6 +4,7 @@ import './App.css';
 import { Message } from "./pages/Message";
 import { Buttons } from "./pages/Buttons";
 import { Router } from "./pages/Router";
+import { Counters } from "./pages/Counters"
 
 
 function App() {
@@ -14,6 +15,7 @@ function App() {
           <Route path='/' element={<Router />}>
             <Route index element={<Message />} />
             <Route path='Buttons' element={<Buttons />} />
+            <Route path='Counters' element={<Counters />} />
           </Route>
         </Routes>
       </div>
