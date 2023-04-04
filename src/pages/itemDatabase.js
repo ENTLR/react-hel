@@ -1,7 +1,7 @@
 export const items = [
 	{
 		img: 'https://cdn.pixabay.com/photo/2021/09/26/20/49/world-6658881_960_720.jpg',
-		title: 'Planet'
+		title: 'Planet',
 		description: 'A grass planet with several items on it',
 		id: 0,
 	},

@@ -4,7 +4,8 @@ import './App.css';
 import { Message } from "./pages/Message";
 import { Buttons } from "./pages/Buttons";
 import { Router } from "./pages/Router";
-import { Counters } from "./pages/Counters"
+import { Counters } from "./pages/Counters";
+import { Items } from "./pages/Items";
 
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
             <Route index element={<Message />} />
             <Route path='Buttons' element={<Buttons />} />
             <Route path='Counters' element={<Counters />} />
+            <Route path='Items' element={<Items />} />
           </Route>
         </Routes>
       </div>
