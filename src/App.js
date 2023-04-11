@@ -6,6 +6,7 @@ import { Buttons } from "./pages/Buttons";
 import { Router } from "./pages/Router";
 import { Counters } from "./pages/Counters";
 import { Items } from "./pages/Items";
+import { List } from "./pages/List";
 
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
             <Route path='Buttons' element={<Buttons />} />
             <Route path='Counters' element={<Counters />} />
             <Route path='Items' element={<Items />} />
+            <Route path='List' element={<List />} />
           </Route>
         </Routes>
       </div>
