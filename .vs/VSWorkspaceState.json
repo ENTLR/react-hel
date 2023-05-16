@@ -2,8 +2,8 @@
   "ExpandedNodes": [
     "",
     "\\src",
-    "\\src\\pages"
+    "\\src\\tictactoe"
   ],
-  "SelectedNode": "\\src\\pages\\List.jsx",
+  "SelectedNode": "\\src\\tictactoe\\Scoreboard.jsx",
   "PreviewInSolutionExplorer": false
 }
